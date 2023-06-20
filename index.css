@@ -1,0 +1,21 @@
+#parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#child{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+}
+
+#image{
+    height: 250px;
+    width: 200px;
+}
+#countryName,#capital,#region{
+    text-align: center;
+}
